@@ -302,7 +302,7 @@ p {
 
   .last-p p {
     position: fixed;
-    top: 730px;
+    top: 710px;
     left: 830px;
     text-transform: capitalize;
   }
