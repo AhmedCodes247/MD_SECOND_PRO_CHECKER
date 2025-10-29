@@ -1,0 +1,309 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-y: scroll;
+  background: linear-gradient(90deg, black, blue, lightpink);
+  color: #ffffff;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+}
+
+.container {
+  position: fixed;
+  top: 50px;
+}
+
+.topCards {
+  position: fixed;
+  top: 100px;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.first-card {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 20px 120px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.second-card {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 20px 120px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.third-card {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 20px 120px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.topCards p {
+  font-weight: bolder;
+  color: grey;
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  position: relative;
+  left: -100px;
+}
+
+.topCards h2 {
+  position: relative;
+  left: -100px;
+  top: 8px;
+}
+
+.main-card {
+  position: fixed;
+  top: 210px;
+  text-transform: capitalize;
+  margin-top: 20px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  color: #000000;
+  width: 75%;
+  height: 320px;
+  padding: 20px 20px;
+}
+
+label {
+  font-weight: bolder;
+  color: #686161;
+}
+
+input {
+  margin: 10px 0px;
+  width: 975px;
+  height: 40px;
+  padding: 0px 15px;
+  border-radius: 8px;
+  border: 2px solid grey;
+}
+
+::placeholder {
+  text-transform: capitalize;
+}
+
+.third-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  top: 310px;
+  left: 2px;
+  gap: 10px;
+}
+
+.buy {
+  text-align: center;
+  width: 300px;
+  height: 10px;
+  border-radius: 6px;
+  background-color: red;
+  text-transform: capitalize;
+  padding: 20px 15px;
+}
+
+.sell {
+  text-align: center;
+  width: 300px;
+  height: 10px;
+  border-radius: 6px;
+  background-color: green;
+  text-transform: capitalize;
+  padding: 20px 15px;
+}
+
+.clearAll {
+  text-align: center;
+  width: 300px;
+  height: 10px;
+  border-radius: 6px;
+  background-color: #6c6363;
+  text-transform: capitalize;
+  padding: 20px 15px;
+  position: relative;
+}
+
+.buy .sell .clearAll,
+p {
+  margin-top: -3px;
+}
+
+.last-p p {
+  position: fixed;
+  top: 620px;
+  left: 550px;
+  text-transform: capitalize;
+}
+
+@media (max-width: 1920px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    overflow-y: scroll;
+    background: linear-gradient(90deg, black, blue, lightpink);
+    color: #ffffff;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+  }
+
+  .container {
+    position: fixed;
+    top: 100px;
+  }
+
+  .topCards {
+    position: fixed;
+    top: 180px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+  }
+
+  .first-card {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 20px 120px;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+
+  .second-card {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 20px 120px;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+
+  .third-card {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 20px 120px;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+
+  .topCards p {
+    font-weight: bolder;
+    color: grey;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    position: relative;
+    left: -100px;
+  }
+
+  .topCards h2 {
+    position: relative;
+    left: -100px;
+    top: 8px;
+  }
+
+  .main-card {
+    position: fixed;
+    top: 300px;
+    text-transform: capitalize;
+    margin-top: 20px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    color: #000000;
+    width: 53%;
+    height: 320px;
+    padding: 20px 20px;
+  }
+
+  label {
+    font-weight: bolder;
+    color: #686161;
+  }
+
+  input {
+    margin: 10px 0px;
+    width: 970px;
+    height: 40px;
+    padding: 0px 15px;
+    border-radius: 8px;
+    border: 2px solid grey;
+  }
+
+  ::placeholder {
+    text-transform: capitalize;
+  }
+
+  .third-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    top: 300px;
+    left: 2px;
+    gap: 10px;
+  }
+
+  .buy {
+    text-align: center;
+    width: 300px;
+    height: 10px;
+    border-radius: 6px;
+    background-color: red;
+    text-transform: capitalize;
+    padding: 20px 15px;
+  }
+
+  .sell {
+    text-align: center;
+    width: 300px;
+    height: 10px;
+    border-radius: 6px;
+    background-color: green;
+    text-transform: capitalize;
+    padding: 20px 15px;
+  }
+
+  .clearAll {
+    text-align: center;
+    width: 300px;
+    height: 10px;
+    border-radius: 6px;
+    background-color: #6c6363;
+    text-transform: capitalize;
+    padding: 20px 15px;
+    position: relative;
+  }
+
+  .buy .sell .clearAll,
+  p {
+    margin-top: -3px;
+  }
+
+  .last-p p {
+    position: fixed;
+    top: 730px;
+    left: 830px;
+    text-transform: capitalize;
+  }
+}
